@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>icon/Vector-2.svg</file>
+    <file>icon/file_input.svg</file>
+    <file>icon/algorithm.svg</file>
+    <file>icon/function.svg</file>
+    <file>icon/more.svg</file>
+    <file>icon/back.svg</file>
+    <file>icon/setting.svg</file>
+    <file>icon/toggle-left.svg</file>
+    <file>icon/toggle-right.svg</file>
+  </qresource>
+  <qresource prefix="image"/>
+</RCC>

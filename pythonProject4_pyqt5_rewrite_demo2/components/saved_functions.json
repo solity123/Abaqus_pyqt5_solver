@@ -1,0 +1,30 @@
+[
+    [
+        "sphere",
+        "f(x) = \\sum_{i=1}^n x_i^2",
+        "def sphere(x):\n    return sum([xi ** 2 for xi in x])",
+        "E:/pythonProject4_pyqt5_rewrite_demo2/components/function_log/objective_function_log.py",
+        "1ffc11bc50d571a01e9c85a92ce2542b"
+    ],
+    [
+        "rastrigin",
+        "f(x) = 10n + \\sum_{i=1}^n [x_i^2 - 10 \\cos(2\\pi x_i)]",
+        "def rastrigin(x):\n    import math\n    return 10 * len(x) + sum([xi ** 2 - 10 * math.cos(2 * math.pi * xi) for xi in x])",
+        "E:/pythonProject4_pyqt5_rewrite_demo2/components/function_log/objective_function_log.py",
+        "df1f8c6eddd891410af0c31cb1e22e07"
+    ],
+    [
+        "rosenbrock",
+        "f(x) = \\sum_{i=1}^{n-1} [80(x_{i+1} - x_i^2)^2 + (x_i - 1)^2]",
+        "def rosenbrock(x):\n    return sum([80 * (x[i + 1] - x[i] ** 2) ** 2 + (x[i] - 1) ** 2 for i in range(len(x) - 1)])",
+        "E:/pythonProject4_pyqt5_rewrite_demo2/components/function_log/objective_function_log.py",
+        "6c0f01c6cf3b1b2cc8d68c6aa9043083"
+    ],
+    [
+        "sphere_1",
+        "f(x) = \\sum_{i=1}^n x_i^4",
+        "def sphere_1(x):\n    return sum([xi ** 4 for xi in x])",
+        "E:/pythonProject4_pyqt5_rewrite_demo2/components/function_log/objective_function_log.py",
+        "c181ec8a2a7b62ebaa10079cf3f6cd1c"
+    ]
+]
